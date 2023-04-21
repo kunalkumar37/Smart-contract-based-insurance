@@ -9,6 +9,7 @@ Install the required dependencies using npm install.
 Compile the smart contract using truffle compile.
 Deploy the smart contract to the Ethereum network using truffle migrate.
 Interact with the smart contract using the web-based user interface.
+
 Features
 This smart contract-based insurance system offers the following features:
 
@@ -16,6 +17,7 @@ Purchase insurance policies by paying the premium.
 File claims by specifying the claim amount.
 Renew policies by paying the premium again.
 Receive payouts automatically for valid claims.
+
 Architecture
 This system is built using Solidity smart contracts, Truffle framework, and web3.js. The smart contract defines the policy and claim data structures, as well as the functions for policyholders to interact with the system. The Truffle framework is used to compile, migrate, and test the smart contract. The web3.js library is used to interact with the smart contract from a web-based user interface.
 
